@@ -1,0 +1,24 @@
+{
+  "name": "'git-code'",
+  "version": "1.0.0",
+  "description": "Test directory to learn Git and Node",
+  "main": "index.html",
+  "scripts": {
+     "start":"npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite":"lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emmaadesile/git-code.git"
+  },
+  "author": "Emmanuel Adesile",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emmaadesile/git-code/issues"
+  },
+  "homepage": "https://github.com/emmaadesile/git-code#readme",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
+}
